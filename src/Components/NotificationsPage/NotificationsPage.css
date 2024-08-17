@@ -1,0 +1,62 @@
+.notiContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .noti {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .noti:hover {
+    background: #f0f0f0;
+  }
+  
+  .noti img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .notiInfo {
+    flex: 1;
+  }
+  
+  .notiText {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notiText p {
+    margin: 0;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .extraDetail {
+    color: #0056b3;
+  }
+  
+  .dot {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .time {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .privateMsg {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,70 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header .notiCount {
+  background: #0056b3;
+  color: white;
+  border-radius: 12px;
+  padding: 2px 8px;
+  margin-left: 10px;
+}
+
+header .readAll {
+  color: #0056b3;
+  cursor: pointer;
+}
+/* Notification.propTypes = {
+  notification: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    action: PropTypes.string.isRequired,
+    extraDetail: PropTypes.string,
+    time: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string.isRequired,
+    read: PropTypes.bool.isRequired,
+    privateMsg: PropTypes.string,
+    imgComment: PropTypes.string,
+  }).isRequired,
+  toggleReadStatus: PropTypes.func.isRequired, */
+  /* App.css */
+.first-three {
+  background-color: green;
+}
+
+.first-three .unread-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 5px;
+}

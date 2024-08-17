@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+}
+
+.notifications-panel {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#badge {
+    background-color: #0a317b;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#mark-all {
+    color: #5e6778;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.notification-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notification {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.notification.unread {
+    background-color: #f7fafd;
+}
+
+.user-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.notification-content p {
+    margin: 0;
+    color: #5e6778;
+    font-size: 16px;
+}
+
+.notification-content strong {
+    color: #1c202b;
+    font-weight: 800;
+}
+
+.notification-content a {
+    color: #5e6778;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.unread-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #f65351;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.time {
+    color: #939cad;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.message-box {
+    border: 1px solid #dde7ee;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.message-box p {
+    margin: 0;
+    color: #5e6778;
+}
+
+.comment-picture {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+}
